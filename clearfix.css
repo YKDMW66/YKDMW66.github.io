@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+ol li{
+	list-style: none;
+}
+ul li{
+	list-style: none;
+}
